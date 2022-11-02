@@ -32,13 +32,13 @@ class SelectionState(private val machine: VendingMachine) : State {
             totalPricePaid += coin.value
         }
         //2. Check paid price with item price if less then return paid money with msg
-        if (totalPricePaid < (item?.itemPrice ?: 0.0)) {
+        if (totalPricePaid < (item?.itemPrice ?: 0)) {
             println("Insufficient Amount, Product you selected is for price: " + item?.itemPrice + " and you paid: " + totalPricePaid)
             refundFullMoney()
             throw Exception("insufficient amount")
         } else {
-            if (totalPricePaid > (item?.itemPrice ?: 0.0)) {
-                getChangeAmt(totalPricePaid - item!!.itemPrice)
+            if (totalPricePaid > (item?.itemPrice ?: 0)) {
+                getChangeAmt((totalPricePaid - item!!.itemPrice).toInt())
             }
             machine.setVendingMachineState(DispenseState(machine))
         }
