@@ -6,6 +6,7 @@ import java.lang.Exception
 class Board (private val size: Int) {
     var boardMatrix: Array<Array<PlayingPiece?>> = Array(size) { arrayOfNulls(size) }
 
+
     fun addPieceToBoard(row: Int, col: Int, playingPiece: PlayingPiece): Boolean {
         try {
             if (boardMatrix[row][col] != null)
