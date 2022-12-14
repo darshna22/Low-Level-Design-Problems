@@ -2,6 +2,8 @@
 LLD implemented for following sample problems
 - Tic Tac Tao
 - Deck of Cards
+- Book Vehicle on rent
+- Cab Booking
 - Parking Lot
 - Vending Machine
 - Splitwise
