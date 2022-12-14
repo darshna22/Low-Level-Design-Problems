@@ -6,5 +6,6 @@ LLD implemented for following sample problems
 - Vending Machine
 - Splitwise
 - Snake and Ladder Game
-- Design ATM Machine
+- Chat Application
+- ATM Machine
 - Cab Sharing 
