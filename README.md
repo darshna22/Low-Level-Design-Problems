@@ -9,6 +9,7 @@ LLD implemented for following sample problems
 - Splitwise
 - Snake and Ladder Game
 - Get paid courses with the numbers of subscribed students
+- Design Elevator
 - Chat Application(in progress)
 - ATM Machine(in progress)
 - Cab Sharing((in progress)) 
