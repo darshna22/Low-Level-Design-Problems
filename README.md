@@ -8,6 +8,8 @@ LLD implemented for following sample problems
 - Vending Machine
 - Splitwise
 - Snake and Ladder Game
-- Chat Application
-- ATM Machine
-- Cab Sharing 
+- Get paid courses with the numbers of subscribed students
+- Design Elevator
+- Chat Application(in progress)
+- ATM Machine(in progress)
+- Cab Sharing((in progress)) 
