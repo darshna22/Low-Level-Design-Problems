@@ -1,14 +1,14 @@
 package com.example.parkinglot2
 
-import parking_lot.capacity.Capacity
-import parking_lot.parkinglot.ParkingLot
-import parking_lot.parkingslots.ParkingLotManager
-import parking_lot.receipt.ParkingReceipt
-import parking_lot.vehicle.Vehicle
-import parking_lot.vehicle.VehicleType
+import parking_lot.model.Capacity
+import parking_lot.model.ParkingLot
+import parking_lot.ParkingLotManager
+import parking_lot.model.ParkingReceipt
+import parking_lot.model.Vehicle
+import parking_lot.enums.VehicleType
 import kotlin.jvm.JvmStatic
 
-object Main {
+object ParkingLotRunner {
     @JvmStatic
     fun main(args: Array<String>) {
         val parkingLot = ParkingLot(

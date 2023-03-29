@@ -1,4 +1,4 @@
-package parking_lot.vehicle
+package parking_lot.enums
 
 enum class VehicleSize {
     SMALL,MEDIUM,LARGE

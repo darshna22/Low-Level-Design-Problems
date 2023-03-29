@@ -1,4 +1,4 @@
-package parking_lot.capacity
+package parking_lot.model
 
 data class Capacity(
     var twoWheelerCapacity: Int,

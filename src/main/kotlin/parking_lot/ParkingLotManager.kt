@@ -1,6 +1,6 @@
-package parking_lot.parkingslots
+package parking_lot
 
-import parking_lot.receipt.ParkingReceipt
+import parking_lot.model.ParkingReceipt
 
 object ParkingLotManager {
     private var parkingHistoryHashMap = mutableMapOf<String, ArrayList<ParkingReceipt>>()

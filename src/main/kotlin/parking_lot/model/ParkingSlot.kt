@@ -1,4 +1,4 @@
-package parking_lot.parkingslots
+package parking_lot.model
 
 class ParkingSlot {
     var slotNo: Int = 0

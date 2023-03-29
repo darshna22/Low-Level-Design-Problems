@@ -1,7 +1,4 @@
-package parking_lot.receipt
-
-import parking_lot.parkingslots.ParkingSlot
-import parking_lot.vehicle.Vehicle
+package parking_lot.model
 
 data class ParkingReceipt(
     val parkingLotId:Int,

@@ -1,11 +1,7 @@
-package parking_lot.parkinglot
+package parking_lot.model
 
-import parking_lot.capacity.Capacity
-import parking_lot.parkingslots.ParkingSlot
-import parking_lot.parkingslots.ParkingLotManager
-import parking_lot.receipt.ParkingReceipt
-import parking_lot.vehicle.Vehicle
-import parking_lot.vehicle.VehicleType
+import parking_lot.ParkingLotManager
+import parking_lot.enums.VehicleType
 import java.util.*
 import kotlin.collections.ArrayList
 
