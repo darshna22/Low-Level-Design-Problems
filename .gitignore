@@ -1,9 +1,0 @@
-#dir
-.idea
-.resources
-src/main/kotlin/LLD_SwigyApp/*
-out
-#files
-*.log
-*.class
-
