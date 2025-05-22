@@ -10,6 +10,7 @@ LLD implemented for following sample problems
 - Snake and Ladder Game
 - Get paid courses with the numbers of subscribed students
 - Design Elevator
+- Analytics Event Routing
 - Chat Application(in progress)
 - ATM Machine(in progress)
 - Cab Sharing((in progress))
