@@ -1,4 +1,4 @@
-# Designing a AdAwareContentRenderingSystem
+![AdAwareContentRenderingSystem](https://github.com/user-attachments/assets/cb31eabb-6e44-40b4-b070-c1bdfb88ec12)# Designing a AdAwareContentRenderingSystem
 ## Requirements
 * Given a list of movies. 
 * Insert ads: 
@@ -9,4 +9,5 @@
 [Java Implementation ](https://github.com/darshna22/Low-Level-Design-Problems/tree/main/src/main/kotlin/LLD_AdAwareContentRenderingSystem)
 
 ## UML Diagram
-![Event Analytics](https://github.com/user-attachments/assets/bd984aa6-d8c8-4a53-a3f7-65af4d158dd9)
+![AdAwareContentRenderingSystem](https://github.com/user-attachments/assets/ca430b40-6018-4bc4-8c43-3394e02f8922)
+
