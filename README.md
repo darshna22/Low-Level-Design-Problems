@@ -10,7 +10,7 @@ LLD implemented for following sample problems
 - Snake and Ladder Game
 - Get paid courses with the numbers of subscribed students
 - Design Elevator
-- Analytics Event Routing
+- [Event Analytic SDK](https://github.com/darshna22/Low-Level-Design-Problems/edit/main/problems/analytics_platform_sdk.md)
 - LLD_AdAwareContentRenderingSystem
 - Chat Application(in progress)
 - ATM Machine(in progress)
