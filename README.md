@@ -5,7 +5,7 @@ LLD implemented for following sample problems
 - Book Vehicle on rent
 - Cab Booking
 - Parking Lot
-- Vending Machine
+- [Vending Machine](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/vending_machine_lld.md)
 - Splitwise
 - Snake and Ladder Game
 - Get paid courses with the numbers of subscribed students
