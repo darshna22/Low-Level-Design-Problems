@@ -20,6 +20,4 @@
 [Java Implementation ](https://github.com/darshna22/Low-Level-Design-Problems/tree/main/src/main/kotlin/LLD_Analytics_Event_Routing)
 
 ## UML Diagram
-![Event Analytics SDK](https://github.com/user-attachments/assets/1d20b5c5-acf5-40de-be55-7ba40477e772)
-
-
+![Event Analytics](https://github.com/user-attachments/assets/bd984aa6-d8c8-4a53-a3f7-65af4d158dd9)
