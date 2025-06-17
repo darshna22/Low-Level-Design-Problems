@@ -11,7 +11,7 @@ LLD implemented for following sample problems
 - Get paid courses with the numbers of subscribed students
 - Design Elevator
 - [Event Analytic SDK](https://github.com/darshna22/Low-Level-Design-Problems/edit/main/problems/analytics_platform_sdk.md)
-- LLD_AdAwareContentRenderingSystem
+- [LLD_AdAwareContentRenderingSystem](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/problems/adsAwareContentRenderingSystem.md)
 - Chat Application(in progress)
 - ATM Machine(in progress)
 - Cab Sharing((in progress))
