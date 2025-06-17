@@ -11,5 +11,7 @@
 [Java Implementation ](https://github.com/darshna22/Low-Level-Design-Problems/tree/main/src/main/kotlin/LLD_Parking_Lot)
 
 ## UML Diagram
-![Parking Lot](https://github.com/user-attachments/assets/925c4ae1-0a8a-46c9-82d0-4ad58b73c02d)
+![parking_lot](https://github.com/user-attachments/assets/997d5037-2883-4623-8942-a88f5a5308d7)
+
+
 
