@@ -4,8 +4,8 @@ LLD implemented for following sample problems
 - Deck of Cards
 - Book Vehicle on rent
 - Cab Booking
-- [Parking Lot](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/multi_level_parking_lot.md)
-- [Vending Machine](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/vending_machine_lld.md)
+- [Parking Lot](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/problems/multi_level_parking_lot.md)
+- [Vending Machine](https://github.com/darshna22/Low-Level-Design-Problems/blob/main/problems/vending_machine_lld.md)
 - Splitwise
 - Snake and Ladder Game
 - Get paid courses with the numbers of subscribed students
