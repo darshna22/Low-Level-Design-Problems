@@ -1,4 +1,4 @@
-![AdAwareContentRenderingSystem](https://github.com/user-attachments/assets/cb31eabb-6e44-40b4-b070-c1bdfb88ec12)# Designing a AdAwareContentRenderingSystem
+# Designing a AdAwareContentRenderingSystem
 ## Requirements
 * Given a list of movies. 
 * Insert ads: 
