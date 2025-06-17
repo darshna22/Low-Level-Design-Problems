@@ -1,6 +1,5 @@
-# Designing a Multi Level Parking Lot
+# Designing a Multi-Level Parking Lot
 ## Requirements
-* The vending machine should support multiple products with different prices and quantities.
 * The parking lot should have multiple levels, each level with a certain number of parking spots. 
 * The parking lot should support different types of vehicles, such as cars, motorcycles, and trucks.
 * Each parking spot should be able to accommodate a specific type of vehicle.
