@@ -3,31 +3,27 @@ package LLD_BookMyShow.services
 import LLD_BookMyShow.model.Movie
 import LLD_BookMyShow.model.Seat
 import LLD_BookMyShow.model.Show
-import LLD_BookMyShow.model.Theatre
+import LLD_BookMyShow.model.Theater
 import LLD_BookMyShow.repository.ShowRepository
-import java.util.*
+import java.util.Date
 
 class ShowService(private val showRepository: ShowRepository) {
-    fun getShow(showId: String): Show? {
-        return showRepository.getShow(showId)
-    }
 
     fun createShow(
+        name: String,
         movie: Movie,
-        startTime: Long,
+        startTime: Date,
         showDurationInSeconds: Long,
         seatList: List<Seat>
-    ): Show {
-        return showRepository.createShow(movie, startTime, showDurationInSeconds,seatList)
+    ) {
+        showRepository.createShow(name, movie, startTime, showDurationInSeconds, seatList)
     }
 
-    fun getAllActiveShows():List<Show>{
+    fun getAllActiveShows(): List<Show> {
         return showRepository.getAllShows()
     }
 
-    fun getActiveShowsOfTheatre(theatre: Theatre):List<Show>{
-        return theatre.audiList.map { it.showList }.flatten().filter { it.showStartTime > System.currentTimeMillis() }
+    fun getShowById(showId: String): Show {
+        return showRepository.getShow(showId)
     }
-
-
 }

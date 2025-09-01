@@ -3,7 +3,7 @@ package LLD_BookMyShow.model
 import LLD_BookMyShow.enums.CurrencyCode
 import LLD_BookMyShow.enums.SeatStatusType
 import LLD_BookMyShow.enums.SeatType
-import LLD_BookMyShow.exception.SeatNotAvailableException
+import LLD_BookMyShow.exception.SeatPermanentlyNotAvailableException
 
 data class Seat(
     val seatId: String,
@@ -16,7 +16,7 @@ data class Seat(
 ) {
     fun confirmSeat() {
         if (seatStatus != SeatStatusType.AVAILABLE) {
-            throw SeatNotAvailableException("Seat is in $seatStatus status")
+            throw SeatPermanentlyNotAvailableException("Seat is in $seatStatus status")
         }
         seatStatus = SeatStatusType.CONFIRM
     }

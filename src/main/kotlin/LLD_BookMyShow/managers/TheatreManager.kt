@@ -19,17 +19,17 @@ class TheatreManager (private val movieService: MovieService,
                       private val theatreService: TheatreService,
                       private val showService: ShowService) {
     public fun init() {
-        createTheatre("MyTheatre", "Kormanngala", "Bangalore")
+        createTheater("MyTheatre", "Kormanngala", "Bangalore")
     }
 
-    private fun createTheatre(theatreName: String, theatreAddress: String, theatreCity: String) {
+    private fun createTheater(theatreName: String, theatreAddress: String, theatreCity: String) {
         //Step:2 create seat for show
         val showSeats = createSeats();
         //Step:2 create show2 for audi
         val showList = createShows(showSeats)
         val audiList = createAudi(showList)
         //create theatre
-        theatreService.createTheatre(
+        theatreService.createTheater(
             theatreName = theatreName,
             theatreAddress = theatreAddress,
             theatreCity = "Bangalore",

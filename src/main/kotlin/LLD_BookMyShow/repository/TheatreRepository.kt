@@ -1,23 +1,22 @@
-package LLD_BookMyTheatre.repository
+package LLD_BookMyTheater.repository
 
 import LLD_BookMyShow.model.Audi
-import LLD_BookMyShow.model.Show
-import LLD_BookMyShow.model.Theatre
+import LLD_BookMyShow.model.Theater
 
-interface TheatreRepository {
+interface TheaterRepository {
 
-    fun createTheatre(
-        theatreName: String,
-        theatreAdd: String,
-        theatreCity: String,
+    fun createTheater(
+        theaterName: String,
+        theaterAdd: String,
+        theaterCity: String,
         audiList: List<Audi>
     )
 
-    fun removeTheatre(theatre: Theatre)
+    fun removeTheater(theater: Theater)
 
-    fun getAllTheatre(): List<List<Theatre>>
+    fun getAllTheater(): List<Theater>
 
-    fun getCityTheatre(city: String): List<Theatre>
+    fun getCityTheater(city: String): List<Theater>
 
-    fun getById(theatreId: String): Theatre?
+    fun getById(theaterId: String): Theater?
 }
